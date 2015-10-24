@@ -1,9 +1,8 @@
 class Experiment.ExperimentView extends Backbone.View
-  template: JST['experiment']
+  template: JST['questions_form']
 
   className: 'dialog-form'
 
   render: ->
-    console.log('rendering')
     @$el.html(@template())
     this

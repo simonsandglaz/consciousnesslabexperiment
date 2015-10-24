@@ -5,7 +5,7 @@ class Experiment.SignUpView extends Backbone.View
     'click button': 'showConsentForm'
     'change input': 'inputChange'
 
-  className: 'dialog-form'
+  className: 'dialog-form sign-up'
 
   render: ->
     @$el.html(@template())
