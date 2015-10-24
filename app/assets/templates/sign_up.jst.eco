@@ -1,0 +1,22 @@
+<h3>Sign Up</h3>
+<div>
+  <div>
+    <input id="name" class="form-control" type='text' placeholder='Name'>
+  </div>
+  <div>
+    <input id="email" class="form-control" type='text' placeholder='Email Address'>
+  </div>
+  <div>
+    <input id="age" class="form-control" type='text' placeholder='Age'>
+  </div>
+  <div>
+    Gender:
+    <select id="gender">
+      <option value="null"></option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="female">Other</option>
+    </select>
+  </div>
+</div>
+<button type="button" class="btn btn-default">Submit</button>

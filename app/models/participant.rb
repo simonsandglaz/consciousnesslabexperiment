@@ -1,3 +1,4 @@
 class Participant < ActiveRecord::Base
-  attr_accessible :name, :age
+  has_many :results
+  attr_accessible :name, :age, :gender
 end

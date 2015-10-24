@@ -1,3 +1,26 @@
-// Place all the styles related to the Experiment controller here.
+// Place all the styles related to the experiments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+#forms {
+  margin-top: 100px;
+  width: 500px;
+  button {
+    float: right;
+    margin-top: 25px;
+  }
+}
+
+#experiment {
+  margin-top: 50px;
+}
+
+div.likert {
+  div {
+    width: 70px;
+    text-align: center;
+  }
+}

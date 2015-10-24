@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  root :to => 'experiments#index'
+  resources :participants
+  resources :results
+
   get 'questions/index'
 
   get 'questions/show'
@@ -14,6 +18,9 @@ Rails.application.routes.draw do
   get 'participants/update'
 
   get 'experiment/index'
+
+  get 'results/update'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
